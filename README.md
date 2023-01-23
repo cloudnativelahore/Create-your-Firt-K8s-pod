@@ -1,4 +1,7 @@
 ### POD Defination
+creating an new pod yaml files:
+>> nano myfirstpod.yml
+ 
 ```
 Kind: Pod
 apiVerion: v1
@@ -12,3 +15,5 @@ spec:
     ports:
     - containerPort: 80
 ```
+
+>> kubectl create -f myfirstpod.yml
